@@ -3,9 +3,9 @@ import { useNavigate } from "react-router-dom";
 import * as H from "../styles/components/HeaderStyle";
 
 import Logo from "../img/logo.svg";
-import GroupCreateBtn from "./GroupCreateBtn";
+import SizeMBtn from "./SizeMBtn";
 
-function Header({ showGroupCreateBtn }) {
+function Header({ showSizeMBtn }) {
   const navigate = useNavigate();
 
   const handleNavLinkClick = (path) => {
@@ -17,7 +17,7 @@ function Header({ showGroupCreateBtn }) {
       <H.Header>
         <H.Blank />
         <H.LogoImg src={Logo} alt="조각집" onClick={() => handleNavLinkClick("/")} />
-        <H.Blank>{showGroupCreateBtn ? <GroupCreateBtn /> : null}</H.Blank>
+        <H.Blank>{showSizeMBtn ? <SizeMBtn category="group" /> : null}</H.Blank>
       </H.Header>
     </>
   );
