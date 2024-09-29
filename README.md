@@ -1,6 +1,7 @@
 ## 🌌 조각집 2팀 개발 팀원
 
 | 이름 | 역할 분담 |
+| --- | --- |
 | 김서윤 | Header, Input, Button, Modal 컴포넌트 구현 |
 | 목소연 | Card, CardInfo, Tab, Dropdown 컴포넌트 구현 |
 
