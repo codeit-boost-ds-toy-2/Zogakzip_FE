@@ -1,19 +1,18 @@
 ## 🌌 조각집 2팀 개발 팀원
 
 | 이름 | 역할 분담 |
-| --- | --- |
 | 김서윤 | Header, Input, Button, Modal 컴포넌트 구현 |
 | 목소연 | Card, CardInfo, Tab, Dropdown 컴포넌트 구현 |
 
 ## 💻 프로젝트 스택 및 라이브러리
 
-![React](https://img.shields.io/badge/react-#61DAFB.svg?&style=for-the-badge&logo=react&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-#61DAFB.svg?&style=for-the-badge&logo=#61DAFB&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-#646CFF.svg?&style=for-the-badge&logo=vite&logoColor=white)
-![Yarn](https://img.shields.io/badge/yarn-#2C8EBB.svg?&style=for-the-badge&logo=yarn&logoColor=white)
-![styled-components](https://img.shields.io/badge/styledcomponents-#DB7093.svg?&style=for-the-badge&logo=styledcomponents&logoColor=white)
-![ReactRouter](https://img.shields.io/badge/reactrouter-#CA4245.svg?&style=for-the-badge&logo=reactrouter&logoColor=white)
-![Axios](https://img.shields.io/badge/axios-#5A29E4.svg?&style=for-the-badge&logo=axios&logoColor=white)
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-61DAFB?style=for-the-badge&logo=JavaScript&logoColor=white">
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white">
+<img src="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=Yarn&logoColor=white">
+<img src="https://img.shields.io/badge/styled-componentsn-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
+<img src="https://img.shields.io/badge/ReactRouter-CA4245?style=for-the-badge&logo=ReactRouter&logoColor=white">
+<img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white">
 
 ## 📁 프로젝트 폴더 구조
 
