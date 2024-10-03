@@ -6,7 +6,8 @@
 | <center> 김서윤 </center> | <center> 목소연 </center> |
 | --- | --- |
 | <div align="center"><img src="https://avatars.githubusercontent.com/u/90364700?v=4" width="150px;" alt=""/></div> | <div align="center"><img src="https://avatars.githubusercontent.com/u/126389940?v=4" width="150px;" alt=""/></div> |
-| <div align="center">Header, Input, Button, Modal 컴포넌트 구현</div> | <div align="center">Card, CardInfo, Tab, Dropdown 컴포넌트 구현</div> |
+| <div align="center">Header, Input, Button, Modal **컴포넌트 구현**</div> | <div align="center">Card, CardInfo, Tab, Dropdown **컴포넌트 구현**</div> |
+| <div align="center">그룹 만들기/추억 올리기 **페이지**, 비공개 그룹/추억 접근 권한 확인 **페이지**,</br> 추억 올리기 권한 확인 **모달**, 그룹 수정/삭제 **모달**, 추억 수정/삭제 **모달**</div> | <div align="center">공개 그룹 목록 **페이지**, 비공개 그룹 목록 **페이지**,</br> 그룹 상세 **페이지** (공개 추억/비공개 추억), 추억 상세 **페이지**</div> |
 | <div align="center">[@pookey1104](https://github.com/pookey1104)</div> | <div align="center">[@mogg22](https://github.com/mogg22)</div> |
 <br>
 
