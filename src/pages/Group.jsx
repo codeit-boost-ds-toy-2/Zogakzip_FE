@@ -7,7 +7,7 @@ function Group() {
   return (
     <>
       <G.Group>
-        <Header />
+        <Header showSizeMBtn={true} />
         그룹 페이지
       </G.Group>
     </>

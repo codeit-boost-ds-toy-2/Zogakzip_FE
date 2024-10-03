@@ -7,7 +7,7 @@ import NonImg from "../img/404.png";
 function NonPg() {
   return (
     <>
-      <Header />
+      <Header showGroupCreateBtn={false} />
       <N.NonPg>
         <N.NonImg src={NonImg} alt="404" />
       </N.NonPg>
