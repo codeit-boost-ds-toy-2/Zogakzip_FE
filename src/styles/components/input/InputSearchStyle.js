@@ -24,6 +24,7 @@ export const InputText = styled.input`
   font-size: 14px;
   font-weight: 400;
   letter-spacing: -0.42px;
+  color: ${palette.black};
   border: none;
   outline: none;
   background: ${palette.gray100};
