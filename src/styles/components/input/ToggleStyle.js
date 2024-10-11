@@ -9,11 +9,11 @@ export const ToggleContainer = styled.div`
     width: 48px;
     height: 24px;
     border-radius: 30px;
-    background-color: ${palette.black};
+    background-color: ${palette.gray400};
   }
   //.toggle--checked 클래스가 활성화 되었을 경우의 CSS를 구현
   > .toggle--checked {
-    background-color: ${palette.gray400};
+    background-color: ${palette.black};
     transition: ease-in-out 300ms;
   }
 

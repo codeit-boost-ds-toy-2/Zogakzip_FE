@@ -14,6 +14,7 @@ export const Header = styled.div`
 export const LogoImg = styled.img`
   width: 137px;
   cursor: pointer;
+  margin-left: 19px;
 `;
 
 export const Blank = styled.div`
