@@ -94,8 +94,8 @@ function CardBox({ type, data }) {
                         </C.Left>
                     )}
                     <C.Right>
-                        <C.BottomImg imgType="flower" style={{marginRight: "20px"}}><div><img src={Flower} alt='like'/></div><div>{data.likeCount}</div></C.BottomImg>
-                        <C.BottomImg imgType="bubble"><div><img src={Bubble} alt='like'/></div><div>{data.commentCount}</div></C.BottomImg>
+                        <C.BottomImg $imgType="flower" style={{marginRight: "20px"}}><div><img src={Flower} alt='like'/></div><div>{data.likeCount}</div></C.BottomImg>
+                        <C.BottomImg $imgType="bubble"><div><img src={Bubble} alt='like'/></div><div>{data.commentCount}</div></C.BottomImg>
                     </C.Right>
                 </C.MemoryBottom>
             </C.CardBox>

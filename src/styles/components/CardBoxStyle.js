@@ -190,10 +190,10 @@ export const BottomImg = styled.div`
         align-items: center;
     }
     & div img {
-        width: ${(props) => (props.imgType === 'flower' ? '18px' : '24px')};
-        padding-top: ${(props) => (props.imgType === 'flower' ? '3px' : '')};
-        padding-bottom: ${(props) => (props.imgType === 'flower' ? '3.69px' : '')};
-        height: ${(props) => (props.imgType === 'flower' ? '17.307px' : '24px')};
+        width: ${(props) => (props.$imgType === 'flower' ? '18px' : '24px')};
+        padding-top: ${(props) => (props.$imgType === 'flower' ? '3px' : '')};
+        padding-bottom: ${(props) => (props.$imgType === 'flower' ? '3.69px' : '')};
+        height: ${(props) => (props.$imgType === 'flower' ? '17.307px' : '24px')};
         margin-right: 8px;
     }
 `;
