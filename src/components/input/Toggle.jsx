@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import * as T from "../../styles/components/input/ToggleStyle";
 
 function Toggle() {
-  const [isOn, setisOn] = useState(false);
+  const [isOn, setisOn] = useState(true);
 
   const toggleHandler = () => {
     setisOn(!isOn);

@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import * as G from "../styles/components/SizeMBtnStyle";
 
 function SizeMBtn({ category }) {
@@ -20,8 +21,14 @@ function SizeMBtn({ category }) {
     }
   };
 
+  const navigate = useNavigate();
+
+  const handleNavLinkClick = (path) => {
+    navigate(path);
+  };
+
   const groupClick = () => {
-    console.log("그룹 만들기 모달 추가 예정");
+    handleNavLinkClick("/create");
   };
 
   const memoryClick = () => {
