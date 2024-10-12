@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import * as P from "../styles/PostCreateStyle";
 
@@ -12,15 +12,28 @@ import Toggle from "../components/input/Toggle";
 import SizeLBtn from "../components/SizeLBtn";
 import X from "../img/x.svg";
 
+import MemoryNonModal from "../components/modal/MemoryNonModal";
+
 function PostCreate() {
   const handlePostClick = () => {
     console.log("추억 올리기 API 연동 예정");
+    openModal();
   };
 
   const navigate = useNavigate();
 
   const handleBackClick = () => {
     navigate(-1);
+  };
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
   };
 
   return (
@@ -52,6 +65,7 @@ function PostCreate() {
         <P.CloseBtn src={X} alt="닫기" onClick={() => handleBackClick()} />
         <SizeLBtn text="올리기" onClick={handlePostClick} />
       </P.PostCreate>
+      {isModalOpen && <MemoryNonModal onClose={closeModal} />}
     </>
   );
 }
