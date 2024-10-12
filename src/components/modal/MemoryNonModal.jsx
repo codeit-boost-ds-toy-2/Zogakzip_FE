@@ -7,7 +7,7 @@ import X from "../../img/x.svg";
 
 const MemoryNonModal = ({ onClose }) => {
   return (
-    <div>
+    <>
       <M.ModalBackground onClick={onClose} />
       <M.ModalSpace>
         <M.ModalWrap>
@@ -19,7 +19,7 @@ const MemoryNonModal = ({ onClose }) => {
           <SizeLBtn text="제출하기" onClick={onClose} />
         </M.ModalWrap>
       </M.ModalSpace>
-    </div>
+    </>
   );
 };
 
