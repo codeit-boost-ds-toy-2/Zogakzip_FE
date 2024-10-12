@@ -1,5 +1,5 @@
 import React from "react";
-import * as M from "../../styles/components/modal/MemoryNonModalStyle";
+import * as M from "../../styles/components/modal/NonDelModalStyle";
 
 import InputText from "../input/InputText";
 import SizeLBtn from "../SizeLBtn";
